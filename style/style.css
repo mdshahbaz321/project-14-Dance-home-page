@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #F5F2F0;
+}
+/* satrt coding */
+.bodyMain-box{
+    display: flex;
+    flex-direction: row;
+}
+.main-image{
+    width: 30rem;
+    height: 100vh;
+}
+.list-item{
+    list-style: none;
+    display: inline-block;
+}
+.logo{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    width: 8rem;
+}
+.list-item{
+    margin-top: 3rem;
+    margin-right: 2rem;
+    color: rgb(161, 159, 159);
+    font-size: 1rem;
+    
+}
+.list-item:hover{
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    cursor: pointer;
+}
+.ul-boxHr{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+hr{
+    width: 20rem;
+    height: 0.2rem;
+    background-color: #000;
+    font-size: 40rem;
+    font-weight: 1000px;
+    margin-top: 3.5rem;
+    margin-right: 2rem;
+    margin-left: 1rem;
+
+}
+.creativ-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.crea-{
+    font-family: 'Monoton', cursive;
+    font-size: 5rem;
+    margin-left: 1.5rem;
+}
+.tivity{
+    font-weight: 800;
+    font-size: 5rem;
+    line-height: 2rem;
+    margin-left: 3rem;
+}
+.social-icon{
+    width: 1.5rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+.isyour{
+    font-size: 2rem;
+    margin-top: 7rem;
+    color: rgb(171, 168, 168);
+    margin-right: 5rem;
+}
+.check-package{
+    float: right;
+    margin-top: 2rem;
+    width: 15rem;
+    height: 3rem;
+    color: #F5F2F0;
+    background-color: #333333;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+/* line */
+.line{
+    width: 0.1rem;
+    height: 14rem;
+    background-color: rgba(151, 148, 148, 0.829);
+    margin-left: 2rem;
+    margin-top: rem;
+    position: relative;
+}
+.circle{
+    width: 1rem;
+    height: 1rem;
+    background-color: rgb(188, 183, 183);
+    border-radius: 50%;
+    position: relative;
+    left: -0.4rem;
+    margin-top: 1.5rem;
+}
+
+.circle-txt{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.line-box{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+}
+.line-box{
+    
+    width: 48rem;
+    margin-top: -1rem;
+    height: 15rem;
+}
+.coma-box{
+    
+    padding-bottom: 2rem;
+}
+.coma{
+    font-family: 'Monoton', cursive;
+    font-size: 3rem;
+    margin-top: -2rem;
+}
+.last-image{
+    width: 17rem;
+    height: 9rem;
+    margin-top: 0.5rem;
+}
+#arrow{
+    font-size: 6rem;
+    margin-top: 5rem;
+}
+/* end */
+/* @media screen and (max-width:1000px) {
+    html{
+        font-size: 50%;
+    }
+} */
+
